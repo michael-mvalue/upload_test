@@ -25,4 +25,4 @@ async def test():
 
 @app.get("/test")
 async def test():
-    return {"message": "✅✅✅"}
+    return {"message": "🤩🤩🤩"}
