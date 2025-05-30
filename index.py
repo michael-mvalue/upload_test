@@ -21,4 +21,8 @@ async def upload_to_s3(file: UploadFile = File(...)):
 
 @app.get("/")
 async def test():
-        return {"message": "Server is working!"}
+    return {"message": "Server is working!"}
+
+@app.get("/test")
+async def test():
+    return {"message": "✅✅✅"}
